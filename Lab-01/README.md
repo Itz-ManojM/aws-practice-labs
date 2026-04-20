@@ -30,7 +30,7 @@ This lab demonstrates how to launch an Amazon EC2 instance in a public subnet us
 
 ## Architecture Diagram
 
-![Architecture Diagram](images/image.png)
+![Architecture Diagram](Images/image.png)
 
 ---
 
@@ -83,7 +83,7 @@ In this lab, you do **not** create or attach an Internet Gateway manually. AWS h
 
 This opens the instance launch page where all instance settings are configured.
 
-![Launch Instance Page](images/dash.png)
+![Launch Instance Page](Images/dash.png)
 
 ---
 
@@ -94,7 +94,7 @@ This opens the instance launch page where all instance settings are configured.
 
 This makes the instance easier to identify later.
 
-![Name and Tags Section](images/intancename.png)
+![Name and Tags Section](Images/intancename.png)
 
 ---
 
@@ -106,7 +106,7 @@ This makes the instance easier to identify later.
 
 Amazon Linux 2023 is a secure and AWS-optimized Linux operating system.
 
-![AMI Selection](images/AMI.png)
+![AMI Selection](Images/AMI.png)
 
 ---
 
@@ -117,7 +117,7 @@ Amazon Linux 2023 is a secure and AWS-optimized Linux operating system.
 
 This instance type is suitable for beginner labs and small workloads.
 
-![Instance Type Selection](images/instance.png)
+![Instance Type Selection](Images/instance.png)
 
 ---
 
@@ -133,7 +133,7 @@ This instance type is suitable for beginner labs and small workloads.
 
 This key pair is required for SSH access.
 
-![Key Pair Creation](images/keyvalue_pair.png)
+![Key Pair Creation](Images/keyvalue_pair.png)
 
 ---
 
@@ -145,7 +145,7 @@ This key pair is required for SSH access.
 
 This ensures the EC2 instance receives a public IPv4 address and can communicate through the Internet Gateway.
 
-![Public Subnet Selection](images/network.png)
+![Public Subnet Selection](Images/network.png)
 
 ---
 
@@ -159,7 +159,7 @@ This allows:
 - SSH access on port `22`
 - HTTP access on port `80`
 
-![Security Group Configuration](images/security_group.png)
+![Security Group Configuration](Images/security_group.png)
 
 ---
 
@@ -171,7 +171,7 @@ This allows:
 
 > Note: In this lab, no additional EBS configuration is required. The instance uses the default root volume automatically created during launch.
 
-![Launch Summary](images/Launch.png)
+![Launch Summary](Images/Launch.png)
 
 ---
 
@@ -180,7 +180,7 @@ This allows:
 - After clicking **Launch instance**, AWS shows a success message
 - Confirm that the instance has been launched successfully
 
-![Launch Success Message](images/confirm.png)
+![Launch Success Message](Images/confirm.png)
 
 ---
 
@@ -194,7 +194,7 @@ This allows:
 
 These details confirm the instance is ready and reachable.
 
-![Instance Details Page](images/instancepage.png)
+![Instance Details Page](Images/instancepage.png)
 
 ---
 
@@ -256,7 +256,7 @@ To connect with PuTTY:
 8. Connect using the username `ec2-user`
 
 **Output Screenshot:**  
-![SSH Login](images\connection.png)
+![SSH Login](Images\connection.png)
 
 ---
 
@@ -272,7 +272,7 @@ sudo yum install httpd -y
 These commands update the package metadata and install the Apache web server.
 
 **Output Screenshot:**  
-![Apache Installation Output](images\Apache.png)
+![Apache Installation Output](Images\Apache.png)
 
 ---
 
@@ -316,7 +316,7 @@ Hello from EC2
 ```
 
 **Output Screenshot:**  
-![Browser Test Output](images\browser.png)
+![Browser Test Output](Images\browser.png)
 
 ---
 
