@@ -256,7 +256,7 @@ To connect with PuTTY:
 8. Connect using the username `ec2-user`
 
 **Output Screenshot:**  
-![SSH Login](Images\connection.png)
+![SSH Login](Images/connection.png)
 
 ---
 
@@ -272,7 +272,7 @@ sudo yum install httpd -y
 These commands update the package metadata and install the Apache web server.
 
 **Output Screenshot:**  
-![Apache Installation Output](Images\Apache.png)
+![Apache Installation Output](Images/Apache.png)
 
 ---
 
@@ -316,7 +316,7 @@ Hello from EC2
 ```
 
 **Output Screenshot:**  
-![Browser Test Output](Images\browser.png)
+![Browser Test Output](Images/browser.png)
 
 ---
 
