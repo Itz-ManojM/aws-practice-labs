@@ -353,7 +353,7 @@ If the page does not open:
 - Check that you entered the correct **Public IPv4 address**
 
 **Output Screenshot:**  
-![Browser Test Output](images/Browser.png)
+![Browser Test Output](images/browser.png)
 
 ---
 
