@@ -47,7 +47,7 @@ You also need:
 
 ## Architecture Diagram
 
-![Arcitecture](<images/image.png>)
+![Arcitecture](<images/Screenshot 2026-05-07 113614.png>)
 
 ---
 
