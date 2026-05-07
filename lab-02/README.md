@@ -120,7 +120,7 @@ This is a safer pattern because the private instance remains isolated from direc
 
 This starts the process of creating a custom network for the lab.
 
-![VPC Dashboard](<images/Vpc creation.png>)
+![VPC Dashboard](<images/VPC creation.png>)
 
 ---
 
