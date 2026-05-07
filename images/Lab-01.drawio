@@ -1,0 +1,34 @@
+<mxfile host="app.diagrams.net" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/147.0.0.0 Safari/537.36">
+  <diagram name="Page-1" id="RAKcOm1Wl-fqZ-YVwlc2">
+    <mxGraphModel dx="1493" dy="620" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="850" pageHeight="1100" math="0" shadow="0">
+      <root>
+        <mxCell id="0" />
+        <mxCell id="1" parent="0" />
+        <mxCell id="XmxfGVBzJFveU_trqO9S-1" parent="1" style="points=[[0,0],[0.25,0],[0.5,0],[0.75,0],[1,0],[1,0.25],[1,0.5],[1,0.75],[1,1],[0.75,1],[0.5,1],[0.25,1],[0,1],[0,0.75],[0,0.5],[0,0.25]];outlineConnect=0;gradientColor=none;html=1;whiteSpace=wrap;fontSize=12;fontStyle=0;container=1;pointerEvents=0;collapsible=0;recursiveResize=0;shape=mxgraph.aws4.group;grIcon=mxgraph.aws4.group_region;strokeColor=#00A4A6;fillColor=none;verticalAlign=top;align=left;spacingLeft=30;fontColor=#147EBA;dashed=1;" value="Region" vertex="1">
+          <mxGeometry height="510" width="650" x="80" y="50" as="geometry" />
+        </mxCell>
+        <mxCell id="XmxfGVBzJFveU_trqO9S-3" parent="XmxfGVBzJFveU_trqO9S-1" style="sketch=0;outlineConnect=0;gradientColor=none;html=1;whiteSpace=wrap;fontSize=12;fontStyle=0;shape=mxgraph.aws4.group;grIcon=mxgraph.aws4.group_vpc;strokeColor=#879196;fillColor=none;verticalAlign=top;align=left;spacingLeft=30;fontColor=#879196;dashed=0;" value="VPC" vertex="1">
+          <mxGeometry height="430" width="610" x="20" y="50" as="geometry" />
+        </mxCell>
+        <mxCell id="XmxfGVBzJFveU_trqO9S-2" parent="XmxfGVBzJFveU_trqO9S-1" style="fillColor=none;strokeColor=#147EBA;dashed=1;verticalAlign=top;fontStyle=0;fontColor=#147EBA;whiteSpace=wrap;html=1;" value="Availability Zone" vertex="1">
+          <mxGeometry height="320" width="540" x="60" y="130" as="geometry" />
+        </mxCell>
+        <mxCell id="XmxfGVBzJFveU_trqO9S-6" parent="XmxfGVBzJFveU_trqO9S-1" style="points=[[0,0],[0.25,0],[0.5,0],[0.75,0],[1,0],[1,0.25],[1,0.5],[1,0.75],[1,1],[0.75,1],[0.5,1],[0.25,1],[0,1],[0,0.75],[0,0.5],[0,0.25]];outlineConnect=0;gradientColor=none;html=1;whiteSpace=wrap;fontSize=12;fontStyle=0;container=1;pointerEvents=0;collapsible=0;recursiveResize=0;shape=mxgraph.aws4.group;grIcon=mxgraph.aws4.group_security_group;grStroke=0;strokeColor=#7AA116;fillColor=#F2F6E8;verticalAlign=top;align=left;spacingLeft=30;fontColor=#248814;dashed=0;" value="Public subnet" vertex="1">
+          <mxGeometry height="260" width="440" x="110" y="170" as="geometry" />
+        </mxCell>
+        <mxCell id="XmxfGVBzJFveU_trqO9S-10" parent="XmxfGVBzJFveU_trqO9S-1" style="sketch=0;outlineConnect=0;fontColor=#232F3E;gradientColor=none;fillColor=#8C4FFF;strokeColor=none;dashed=0;verticalLabelPosition=bottom;verticalAlign=top;align=center;html=1;fontSize=12;fontStyle=0;aspect=fixed;pointerEvents=1;shape=mxgraph.aws4.internet_gateway;" value="Internet Gateway" vertex="1">
+          <mxGeometry height="50" width="50" x="295" y="30" as="geometry" />
+        </mxCell>
+        <mxCell id="XmxfGVBzJFveU_trqO9S-13" parent="XmxfGVBzJFveU_trqO9S-1" style="text;html=1;whiteSpace=wrap;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;rounded=0;" value="Route Table:&lt;br&gt;0.0.0.0/0 → Internet Gateway" vertex="1">
+          <mxGeometry height="30" width="130" x="240" y="180" as="geometry" />
+        </mxCell>
+        <mxCell id="XmxfGVBzJFveU_trqO9S-8" parent="1" style="fillColor=none;strokeColor=#DD3522;verticalAlign=top;fontStyle=0;fontColor=#DD3522;whiteSpace=wrap;html=1;" value="Security group (SSH access)" vertex="1">
+          <mxGeometry height="160" width="340" x="240" y="280" as="geometry" />
+        </mxCell>
+        <mxCell id="XmxfGVBzJFveU_trqO9S-9" parent="1" style="outlineConnect=0;dashed=0;verticalLabelPosition=bottom;verticalAlign=top;align=center;html=1;shape=mxgraph.aws3.ec2;fillColor=#F58534;gradientColor=none;" value="" vertex="1">
+          <mxGeometry height="93" width="76.5" x="360" y="320" as="geometry" />
+        </mxCell>
+      </root>
+    </mxGraphModel>
+  </diagram>
+</mxfile>
